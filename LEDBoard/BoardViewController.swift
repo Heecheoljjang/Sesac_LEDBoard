@@ -78,10 +78,7 @@ class BoardViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func tapSendBtn(_ sender: Any) {
         
-        print(sendBtn.currentTitle)
-        print(inputTextField.text)
         mainLabel.text = inputTextField.text
-        
         
     }
     
