@@ -79,6 +79,7 @@ class BoardViewController: UIViewController, UITextFieldDelegate {
     @IBAction func tapSendBtn(_ sender: Any) {
         
         mainLabel.text = inputTextField.text
+        view.endEditing(true)
         
     }
     
